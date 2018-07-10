@@ -1,0 +1,36 @@
+{% load static %}
+{% get_static_prefix as STATIC_PREFIX %}
+{% load i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+{% block products %}
+    <div class="features_items"><!--features_items-->
+        <h2 class="title text-center">{% trans category_name context 'category' %}</h2>
+        {% for product in products %}
+        <div class="col-sm-4">
+            <div class="product-image-wrapper">
+                <div class="single-products">
+                        <div class="productinfo text-center">
+                            <img src="{{ STATIC_PREFIX }}products/{{ product.product_id.named_id|lower }}.png" alt="" />
+                            <h2>${{ product.product_id.per_item|floatformat:2 }}</h2>
+                            <p>{% trans product.product_id.named_id context 'products' %}</p>
+                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>{% trans 'Add to cart' %}</a>
+                        </div>
+                        <div class="product-overlay">
+                            <div class="overlay-content">
+                                <h2>${{ product.product_id.per_item|floatformat:2 }}</h2>
+                                <p>{% trans product.product_id.named_id context 'products' %}</p>
+                                <a href="/{{LANGUAGE_CODE}}/product/{{ product.named_id }}" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>{% trans 'Add to cart' %}</a>
+                            </div>
+                        </div>
+                </div>
+                {% if product.product_id.is_sale %}
+                    <img src="{% static 'default/images/home/sale.png' %}" class="new" alt="" />
+                {% endif %}
+                {% if product.product_id.is_new %}
+                    <img src="{% static 'default/images/home/new.png' %}" class="new" alt="" />
+                {% endif %}
+            </div>
+        </div>
+        {% endfor %}
+    </div><!--features_items-->
+{% endblock %}

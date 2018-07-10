@@ -1,0 +1,45 @@
+{% load i18n static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{% block title %}{{ title }}{% endblock %}</title>
+    {% block stylesheet %}
+        <link href="{% static 'default/css/bootstrap.min.css' %}" rel="stylesheet" type="text/css">
+        <link href="{% static 'default/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
+        <link href="{% static 'default/css/prettyPhoto.css' %}" rel="stylesheet" type="text/css">
+        <link href="{% static 'default/css/price-range.css' %}" rel="stylesheet" type="text/css">
+        <link href="{% static 'default/css/animate.css' %}" rel="stylesheet" type="text/css">
+        <link href="{% static 'default/css/main.css' %}" rel="stylesheet" type="text/css">
+    {% endblock %}
+    {% block responsive %}
+        <link href="{% static 'default/css/responsive.css' %}" rel="stylesheet" type="text/css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="shortcut icon" href="{% static 'default/images/ico/favicon.ico' %}">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{% static 'default/images/ico/apple-touch-icon-144-precomposed.png' %}">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{% static 'default/images/ico/apple-touch-icon-114-precomposed.png' %}">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{% static 'default/images/ico/apple-touch-icon-72-precomposed.png' %}">
+        <link rel="apple-touch-icon-precomposed" href="{% static 'default/images/ico/apple-touch-icon-57-precomposed.png' %}">
+    {% endblock %}
+</head>
+<body>
+    {% block header %}
+    {% endblock %}
+    {% block slider %}
+    {% endblock %}
+    {% block content %}
+    {% endblock %}
+    {% block footer %}
+    {% endblock %}
+    {% block scripts %}
+        <script src="{% static 'default/js/jquery.js' %}"></script>
+	    <script src="{% static 'default/js/bootstrap.min.js' %}"></script>
+	    <script src="{% static 'default/js/jquery.scrollUp.min.js' %}"></script>
+	    <script src="{% static 'default/js/price-range.js' %}"></script>
+        <script src="{% static 'default/js/jquery.prettyPhoto.js' %}"></script>
+        <script src="{% static 'default/js/main.js' %}"></script>
+    {% endblock %}
+</body>
+</html>

@@ -1,0 +1,3402 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-07-03 20:30+0300\n"
+"PO-Revision-Date: 2018-07-10 19:56+0300\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.0.8\n"
+
+#: .\venv\Lib\site-packages\django\contrib\messages\apps.py:7
+msgid "Messages"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\contrib\sitemaps\apps.py:7
+msgid "Site Maps"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\contrib\staticfiles\apps.py:9
+msgid "Static Files"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\contrib\syndication\apps.py:7
+msgid "Syndication"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\paginator.py:40
+msgid "That page number is not an integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\paginator.py:42
+msgid "That page number is less than 1"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\paginator.py:47
+msgid "That page contains no results"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:31
+msgid "Enter a valid value."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:102
+#: .\venv\Lib\site-packages\django\forms\fields.py:649
+msgid "Enter a valid URL."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:154
+msgid "Enter a valid integer."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:165
+msgid "Enter a valid email address."
+msgstr ""
+
+#. Translators: "letters" means latin letters: a-z and A-Z.
+#: .\venv\Lib\site-packages\django\core\validators.py:239
+msgid ""
+"Enter a valid 'slug' consisting of letters, numbers, underscores or hyphens."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:246
+msgid ""
+"Enter a valid 'slug' consisting of Unicode letters, numbers, underscores, or "
+"hyphens."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:255
+#: .\venv\Lib\site-packages\django\core\validators.py:275
+msgid "Enter a valid IPv4 address."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:260
+#: .\venv\Lib\site-packages\django\core\validators.py:276
+msgid "Enter a valid IPv6 address."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:270
+#: .\venv\Lib\site-packages\django\core\validators.py:274
+msgid "Enter a valid IPv4 or IPv6 address."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:304
+msgid "Enter only digits separated by commas."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:310
+#, python-format
+msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:341
+#, python-format
+msgid "Ensure this value is less than or equal to %(limit_value)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:350
+#, python-format
+msgid "Ensure this value is greater than or equal to %(limit_value)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:360
+#, python-format
+msgid ""
+"Ensure this value has at least %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at least %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:375
+#, python-format
+msgid ""
+"Ensure this value has at most %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at most %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:395
+#, python-format
+msgid "Ensure that there are no more than %(max)s digit in total."
+msgid_plural "Ensure that there are no more than %(max)s digits in total."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:400
+#, python-format
+msgid "Ensure that there are no more than %(max)s decimal place."
+msgid_plural "Ensure that there are no more than %(max)s decimal places."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:405
+#, python-format
+msgid ""
+"Ensure that there are no more than %(max)s digit before the decimal point."
+msgid_plural ""
+"Ensure that there are no more than %(max)s digits before the decimal point."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:465
+#, python-format
+msgid ""
+"File extension '%(extension)s' is not allowed. Allowed extensions are: "
+"'%(allowed_extensions)s'."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\core\validators.py:518
+msgid "Null characters are not allowed."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\base.py:1125
+#: .\venv\Lib\site-packages\django\forms\models.py:753
+msgid "and"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\base.py:1127
+#, python-format
+msgid "%(model_name)s with this %(field_labels)s already exists."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:105
+#, python-format
+msgid "Value %(value)r is not a valid choice."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:106
+msgid "This field cannot be null."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:107
+msgid "This field cannot be blank."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:108
+#, python-format
+msgid "%(model_name)s with this %(field_label)s already exists."
+msgstr ""
+
+#. Translators: The 'lookup_type' is one of 'date', 'year' or 'month'.
+#. Eg: "Title must be unique for pub_date year"
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:112
+#, python-format
+msgid ""
+"%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:129
+#, python-format
+msgid "Field of type: %(field_type)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:882
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1782
+msgid "Integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:886
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1780
+#, python-format
+msgid "'%(value)s' value must be an integer."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:959
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1851
+msgid "Big (8 byte) integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:971
+#, python-format
+msgid "'%(value)s' value must be either True or False."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:973
+msgid "Boolean (Either True or False)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1039
+#, python-format
+msgid "String (up to %(max_length)s)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1102
+msgid "Comma-separated integers"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1150
+#, python-format
+msgid ""
+"'%(value)s' value has an invalid date format. It must be in YYYY-MM-DD "
+"format."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1152
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1294
+#, python-format
+msgid ""
+"'%(value)s' value has the correct format (YYYY-MM-DD) but it is an invalid "
+"date."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1155
+msgid "Date (without time)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1292
+#, python-format
+msgid ""
+"'%(value)s' value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[."
+"uuuuuu]][TZ] format."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1296
+#, python-format
+msgid ""
+"'%(value)s' value has the correct format (YYYY-MM-DD HH:MM[:ss[.uuuuuu]]"
+"[TZ]) but it is an invalid date/time."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1300
+msgid "Date (with time)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1447
+#, python-format
+msgid "'%(value)s' value must be a decimal number."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1449
+msgid "Decimal number"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1601
+#, python-format
+msgid ""
+"'%(value)s' value has an invalid format. It must be in [DD] [HH:[MM:]]ss[."
+"uuuuuu] format."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1604
+msgid "Duration"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1656
+msgid "Email address"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1680
+msgid "File path"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1746
+#, python-format
+msgid "'%(value)s' value must be a float."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1748
+msgid "Floating point number"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1866
+msgid "IPv4 address"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1897
+msgid "IP address"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1978
+#, python-format
+msgid "'%(value)s' value must be either None, True or False."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:1980
+msgid "Boolean (Either True, False or None)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2043
+msgid "Positive integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2055
+msgid "Positive small integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2068
+#, python-format
+msgid "Slug (up to %(max_length)s)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2098
+msgid "Small integer"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2105
+msgid "Text"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2133
+#, python-format
+msgid ""
+"'%(value)s' value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
+"format."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2135
+#, python-format
+msgid ""
+"'%(value)s' value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
+"invalid time."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2138
+msgid "Time"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2263
+msgid "URL"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2286
+msgid "Raw binary data"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\__init__.py:2333
+#, python-format
+msgid "'%(value)s' is not a valid UUID."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\files.py:221
+msgid "File"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\files.py:359
+msgid "Image"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:780
+#, python-format
+msgid "%(model)s instance with %(field)s %(value)r does not exist."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:782
+msgid "Foreign Key (type determined by related field)"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:1001
+msgid "One-to-one relationship"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:1051
+#, python-format
+msgid "%(from)s-%(to)s relationship"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:1052
+#, python-format
+msgid "%(from)s-%(to)s relationships"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\db\models\fields\related.py:1094
+msgid "Many-to-many relationship"
+msgstr ""
+
+#. Translators: If found as last label character, these punctuation
+#. characters will prevent the default label_suffix to be appended to the label
+#: .\venv\Lib\site-packages\django\forms\boundfield.py:171
+msgid ":?.!"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:53
+msgid "This field is required."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:245
+msgid "Enter a whole number."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:290
+#: .\venv\Lib\site-packages\django\forms\fields.py:325
+msgid "Enter a number."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:396
+#: .\venv\Lib\site-packages\django\forms\fields.py:1114
+msgid "Enter a valid date."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:420
+#: .\venv\Lib\site-packages\django\forms\fields.py:1115
+msgid "Enter a valid time."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:442
+msgid "Enter a valid date/time."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:471
+msgid "Enter a valid duration."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:525
+msgid "No file was submitted. Check the encoding type on the form."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:526
+msgid "No file was submitted."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:527
+msgid "The submitted file is empty."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:529
+#, python-format
+msgid "Ensure this filename has at most %(max)d character (it has %(length)d)."
+msgid_plural ""
+"Ensure this filename has at most %(max)d characters (it has %(length)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:532
+msgid "Please either submit a file or check the clear checkbox, not both."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:597
+msgid ""
+"Upload a valid image. The file you uploaded was either not an image or a "
+"corrupted image."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:753
+#: .\venv\Lib\site-packages\django\forms\fields.py:843
+#: .\venv\Lib\site-packages\django\forms\models.py:1267
+#, python-format
+msgid "Select a valid choice. %(value)s is not one of the available choices."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:844
+#: .\venv\Lib\site-packages\django\forms\fields.py:959
+#: .\venv\Lib\site-packages\django\forms\models.py:1266
+msgid "Enter a list of values."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:960
+msgid "Enter a complete value."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\fields.py:1173
+msgid "Enter a valid UUID."
+msgstr ""
+
+#. Translators: This is the default suffix added to form field labels
+#: .\venv\Lib\site-packages\django\forms\forms.py:86
+msgid ":"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\forms.py:207
+#, python-format
+msgid "(Hidden field %(name)s) %(error)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\formsets.py:91
+msgid "ManagementForm data is missing or has been tampered with"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\formsets.py:338
+#, python-format
+msgid "Please submit %d or fewer forms."
+msgid_plural "Please submit %d or fewer forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\forms\formsets.py:345
+#, python-format
+msgid "Please submit %d or more forms."
+msgid_plural "Please submit %d or more forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\forms\formsets.py:371
+#: .\venv\Lib\site-packages\django\forms\formsets.py:373
+msgid "Order"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\formsets.py:375
+msgid "Delete"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:748
+#, python-format
+msgid "Please correct the duplicate data for %(field)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:752
+#, python-format
+msgid "Please correct the duplicate data for %(field)s, which must be unique."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:758
+#, python-format
+msgid ""
+"Please correct the duplicate data for %(field_name)s which must be unique "
+"for the %(lookup)s in %(date_field)s."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:767
+msgid "Please correct the duplicate values below."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:1094
+msgid "The inline value did not match the parent instance."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:1155
+msgid "Select a valid choice. That choice is not one of the available choices."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\models.py:1269
+#, python-format
+msgid "\"%(pk)s\" is not a valid value."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\utils.py:162
+#, python-format
+msgid ""
+"%(datetime)s couldn't be interpreted in time zone %(current_timezone)s; it "
+"may be ambiguous or it may not exist."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:391
+msgid "Clear"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:392
+msgid "Currently"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:393
+msgid "Change"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:708
+msgid "Unknown"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:709
+msgid "Yes"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\forms\widgets.py:710
+msgid "No"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:783
+msgid "yes,no,maybe"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:812
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:829
+#, python-format
+msgid "%(size)d byte"
+msgid_plural "%(size)d bytes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:831
+#, python-format
+msgid "%s KB"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:833
+#, python-format
+msgid "%s MB"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:835
+#, python-format
+msgid "%s GB"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:837
+#, python-format
+msgid "%s TB"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\template\defaultfilters.py:839
+#, python-format
+msgid "%s PB"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:62
+msgid "p.m."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:63
+msgid "a.m."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:68
+msgid "PM"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:69
+msgid "AM"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:150
+msgid "midnight"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dateformat.py:152
+msgid "noon"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:6
+msgid "Monday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:6
+msgid "Tuesday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:6
+msgid "Wednesday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:6
+msgid "Thursday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:6
+msgid "Friday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:7
+msgid "Saturday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:7
+msgid "Sunday"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:10
+msgid "Mon"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:10
+msgid "Tue"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:10
+msgid "Wed"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:10
+msgid "Thu"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:10
+msgid "Fri"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:11
+msgid "Sat"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:11
+msgid "Sun"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:18
+msgid "January"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:18
+msgid "February"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:18
+msgid "March"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:18
+msgid "April"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:18
+msgid "May"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:18
+msgid "June"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:19
+msgid "July"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:19
+msgid "August"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:19
+msgid "September"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:19
+msgid "October"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:19
+msgid "November"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:20
+msgid "December"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:23
+msgid "jan"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:23
+msgid "feb"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:23
+msgid "mar"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:23
+msgid "apr"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:23
+msgid "may"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:23
+msgid "jun"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:24
+msgid "jul"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:24
+msgid "aug"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:24
+msgid "sep"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:24
+msgid "oct"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:24
+msgid "nov"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:24
+msgid "dec"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:31
+msgctxt "abbrev. month"
+msgid "Jan."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:32
+msgctxt "abbrev. month"
+msgid "Feb."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:33
+msgctxt "abbrev. month"
+msgid "March"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:34
+msgctxt "abbrev. month"
+msgid "April"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:35
+msgctxt "abbrev. month"
+msgid "May"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:36
+msgctxt "abbrev. month"
+msgid "June"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:37
+msgctxt "abbrev. month"
+msgid "July"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:38
+msgctxt "abbrev. month"
+msgid "Aug."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:39
+msgctxt "abbrev. month"
+msgid "Sept."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:40
+msgctxt "abbrev. month"
+msgid "Oct."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:41
+msgctxt "abbrev. month"
+msgid "Nov."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:42
+msgctxt "abbrev. month"
+msgid "Dec."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:45
+msgctxt "alt. month"
+msgid "January"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:46
+msgctxt "alt. month"
+msgid "February"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:47
+msgctxt "alt. month"
+msgid "March"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:48
+msgctxt "alt. month"
+msgid "April"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:49
+msgctxt "alt. month"
+msgid "May"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:50
+msgctxt "alt. month"
+msgid "June"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:51
+msgctxt "alt. month"
+msgid "July"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:52
+msgctxt "alt. month"
+msgid "August"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:53
+msgctxt "alt. month"
+msgid "September"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:54
+msgctxt "alt. month"
+msgid "October"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:55
+msgctxt "alt. month"
+msgid "November"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\dates.py:56
+msgctxt "alt. month"
+msgid "December"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\ipv6.py:8
+msgid "This is not a valid IPv6 address."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\text.py:70
+#, python-format
+msgctxt "String to return when truncating text"
+msgid "%(truncated_text)s..."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\text.py:237
+msgid "or"
+msgstr ""
+
+#. Translators: This string is used as a separator between list elements
+#: .\venv\Lib\site-packages\django\utils\text.py:256
+#: .\venv\Lib\site-packages\django\utils\timesince.py:69
+msgid ", "
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:9
+#, python-format
+msgid "%d year"
+msgid_plural "%d years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:10
+#, python-format
+msgid "%d month"
+msgid_plural "%d months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:11
+#, python-format
+msgid "%d week"
+msgid_plural "%d weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:12
+#, python-format
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:13
+#, python-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:14
+#, python-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: .\venv\Lib\site-packages\django\utils\timesince.py:58
+msgid "0 minutes"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:110
+msgid "Forbidden"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:111
+msgid "CSRF verification failed. Request aborted."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:115
+msgid ""
+"You are seeing this message because this HTTPS site requires a 'Referer "
+"header' to be sent by your Web browser, but none was sent. This header is "
+"required for security reasons, to ensure that your browser is not being "
+"hijacked by third parties."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:120
+msgid ""
+"If you have configured your browser to disable 'Referer' headers, please re-"
+"enable them, at least for this site, or for HTTPS connections, or for 'same-"
+"origin' requests."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:124
+msgid ""
+"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or "
+"including the 'Referrer-Policy: no-referrer' header, please remove them. The "
+"CSRF protection requires the 'Referer' header to do strict referer checking. "
+"If you're concerned about privacy, use alternatives like <a rel=\"noreferrer"
+"\" ...> for links to third-party sites."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:132
+msgid ""
+"You are seeing this message because this site requires a CSRF cookie when "
+"submitting forms. This cookie is required for security reasons, to ensure "
+"that your browser is not being hijacked by third parties."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:137
+msgid ""
+"If you have configured your browser to disable cookies, please re-enable "
+"them, at least for this site, or for 'same-origin' requests."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\csrf.py:142
+msgid "More information is available with DEBUG=True."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:41
+msgid "No year specified"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:61
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:111
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:208
+msgid "Date out of range"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:90
+msgid "No month specified"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:142
+msgid "No day specified"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:188
+msgid "No week specified"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:338
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:367
+#, python-format
+msgid "No %(verbose_name_plural)s available"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:585
+#, python-format
+msgid ""
+"Future %(verbose_name_plural)s not available because %(class_name)s."
+"allow_future is False."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\dates.py:619
+#, python-format
+msgid "Invalid date string '%(datestr)s' given format '%(format)s'"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\detail.py:53
+#, python-format
+msgid "No %(verbose_name)s found matching the query"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\list.py:67
+msgid "Page is not 'last', nor can it be converted to an int."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\list.py:72
+#, python-format
+msgid "Invalid page (%(page_number)s): %(message)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\generic\list.py:154
+#, python-format
+msgid "Empty list and '%(class_name)s.allow_empty' is False."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\static.py:41
+msgid "Directory indexes are not allowed here."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\static.py:43
+#, python-format
+msgid "\"%(path)s\" does not exist"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\static.py:83
+#, python-format
+msgid "Index of %(directory)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:6
+msgid "Django: the Web framework for perfectionists with deadlines."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:345
+#, python-format
+msgid ""
+"View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
+"target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:367
+msgid "The install worked successfully! Congratulations!"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:368
+#, python-format
+msgid ""
+"You are seeing this page because <a href=\"https://docs.djangoproject.com/en/"
+"%(version)s/ref/settings/#debug\" target=\"_blank\" rel=\"noopener"
+"\">DEBUG=True</a> is in your settings file and you have not configured any "
+"URLs."
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:383
+msgid "Django Documentation"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:384
+msgid "Topics, references, &amp; how-to's"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:395
+msgid "Tutorial: A Polling App"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:396
+msgid "Get started with Django"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:407
+msgid "Django Community"
+msgstr ""
+
+#: .\venv\Lib\site-packages\django\views\templates\default_urlconf.html:408
+msgid "Connect, get help, or contribute"
+msgstr ""
+
+msgctxt "basic"
+msgid "Test"
+msgstr "EnTest"
+
+msgctxt "category"
+msgid "allergies"
+msgstr "Allergies"
+
+msgctxt "category"
+msgid "anti_fungal"
+msgstr "Anti Fungal"
+
+msgctxt "category"
+msgid "anti_viral"
+msgstr "Anti Viral"
+
+msgctxt "category"
+msgid "antibiotics"
+msgstr "Antibiotics"
+
+msgctxt "category"
+msgid "anxiety"
+msgstr "Anxiety"
+
+msgctxt "category"
+msgid "arthritis"
+msgstr "Arthritis"
+
+msgctxt "category"
+msgid "asthma"
+msgstr "Asthma"
+
+msgctxt "category"
+msgid "birth_control"
+msgstr "Birth  Control"
+
+msgctxt "category"
+msgid "blood_pressure"
+msgstr "Blood Pressure"
+
+msgctxt "category"
+msgid "cholesterol_lowering"
+msgstr "Cholesterol Lowering"
+
+msgctxt "category"
+msgid "depression"
+msgstr "Depression"
+
+msgctxt "category"
+msgid "diabetes"
+msgstr "Diabetes"
+
+msgctxt "category"
+msgid "erectile_dysfunction"
+msgstr "Erectile Dysfunction"
+
+msgctxt "category"
+msgid "gastrointestinal"
+msgstr "Gastrointestinal"
+
+msgctxt "category"
+msgid "hair_loss"
+msgstr "Hair Loss"
+
+msgctxt "category"
+msgid "heart_disease"
+msgstr "Heart Disease"
+
+msgctxt "category"
+msgid "mans_health"
+msgstr "Man's Health"
+
+msgctxt "category"
+msgid "muscle_relaxant"
+msgstr "Muscle Relaxant"
+
+msgctxt "category"
+msgid "other"
+msgstr "Other"
+
+msgctxt "category"
+msgid "pain_relief"
+msgstr "Pain Relief"
+
+msgctxt "category"
+msgid "skincare"
+msgstr "Skincare"
+
+msgctxt "category"
+msgid "sleep_aid"
+msgstr "Sleep Aaid"
+
+msgctxt "category"
+msgid "quit_smoking"
+msgstr "Quit Smoking"
+
+msgctxt "category"
+msgid "weight_loss"
+msgstr "Weight Loss"
+
+msgctxt "category"
+msgid "womans_health"
+msgstr "Woman's Health"
+
+msgctxt "category"
+msgid "bestsellers"
+msgstr "Bestsellers"
+
+msgctxt "generic"
+msgid "bupropion"
+msgstr "Bupropion"
+
+msgctxt "generic"
+msgid "ezetimibe"
+msgstr "Ezetimibe"
+
+msgctxt "generic"
+msgid "ezetimibe_simvastatin"
+msgstr "Ezetimibe Simvastatin"
+
+msgctxt "generic"
+msgid "fenofibrate"
+msgstr "Fenofibrate"
+
+msgctxt "generic"
+msgid "atorvastatin"
+msgstr "Atorvastatin"
+
+msgctxt "generic"
+msgid "sildenafil"
+msgstr "Sildenafil"
+
+msgctxt "generic"
+msgid "finasteride"
+msgstr "Finasteride"
+
+msgctxt "generic"
+msgid "macrodantin"
+msgstr "Macrodantin"
+
+msgctxt "generic"
+msgid "prazosin"
+msgstr "Prazosin"
+
+msgctxt "generic"
+msgid "bicalutamide"
+msgstr "Bicalutamide"
+
+msgctxt "generic"
+msgid "tamsulosin"
+msgstr "Tamsulosin"
+
+msgctxt "generic"
+msgid "dutasteride"
+msgstr "Dutasteride"
+
+msgctxt "generic"
+msgid "alfuzosin"
+msgstr "Alfuzosin"
+
+msgctxt "generic"
+msgid "tadalafil"
+msgstr "Tadalafil"
+
+msgctxt "generic"
+msgid "flutamide"
+msgstr "Flutamide"
+
+msgctxt "generic"
+msgid "vardenafil"
+msgstr "Vardenafil"
+
+msgctxt "generic"
+msgid "cephalexin"
+msgstr "Cephalexin"
+
+msgctxt "generic"
+msgid "nitrofurantoin"
+msgstr "Nitrofurantoin"
+
+msgctxt "generic"
+msgid "oxybutynin"
+msgstr "Oxybutynin"
+
+msgctxt "generic"
+msgid "naproxen"
+msgstr "Naproxen"
+
+msgctxt "generic"
+msgid "amoxicillin"
+msgstr "Amoxicillin"
+
+msgctxt "generic"
+msgid "clavulanate"
+msgstr "Clavulanate"
+
+msgctxt "generic"
+msgid "indomethacin"
+msgstr "Indomethacin"
+
+msgctxt "generic"
+msgid "minocycline"
+msgstr "Minocycline"
+
+msgctxt "generic"
+msgid "chloroquine"
+msgstr "Chloroquine"
+
+msgctxt "generic"
+msgid "clindamycin"
+msgstr "Clindamycin"
+
+msgctxt "generic"
+msgid "spironolactone"
+msgstr "Spironolactone"
+
+msgctxt "generic"
+msgid "indapamide"
+msgstr "Indapamide"
+
+msgctxt "generic"
+msgid "furosemide"
+msgstr "Furosemide"
+
+msgctxt "generic"
+msgid "microzide"
+msgstr "Microzide"
+
+msgctxt "generic"
+msgid "rabeprazole"
+msgstr "Rabeprazole"
+
+msgctxt "generic"
+msgid "buspirone"
+msgstr "Buspirone"
+
+msgctxt "generic"
+msgid "lithobid"
+msgstr "Lithobid"
+
+msgctxt "generic"
+msgid "eskalith"
+msgstr "Eskalith"
+
+msgctxt "generic"
+msgid "prochlorperazine"
+msgstr "Prochlorperazine"
+
+msgctxt "generic"
+msgid "clozapine"
+msgstr "Clozapine"
+
+msgctxt "generic"
+msgid "clomipramine"
+msgstr "Clomipramine"
+
+msgctxt "generic"
+msgid "aripiprazole"
+msgstr "Aripiprazole"
+
+msgctxt "generic"
+msgid "atomoxetine"
+msgstr "Atomoxetine"
+
+msgctxt "generic"
+msgid "montelukast"
+msgstr "Montelukast"
+
+msgctxt "generic"
+msgid "fexofenadine"
+msgstr "Fexofenadine"
+
+msgctxt "generic"
+msgid "hydroxyzine"
+msgstr "Hydroxyzine"
+
+msgctxt "generic"
+msgid "loratadine"
+msgstr "Loratadine"
+
+msgctxt "generic"
+msgid "cyproheptadine"
+msgstr "Cyproheptadine"
+
+msgctxt "generic"
+msgid "fluticasone_salmeterol"
+msgstr "Fluticasone Salmeterol"
+
+msgctxt "generic"
+msgid "cetirizine"
+msgstr "Cetirizine"
+
+msgctxt "generic"
+msgid "cefuroxime"
+msgstr "Cefuroxime"
+
+msgctxt "generic"
+msgid "sulfamethoxazole_trimethoprim"
+msgstr "Sulfamethoxazole Trimethoprim"
+
+msgctxt "generic"
+msgid "linezolid"
+msgstr "Linezolid"
+
+msgctxt "generic"
+msgid "ivermectin"
+msgstr "Ivermectin"
+
+msgctxt "generic"
+msgid "chloramphenicol"
+msgstr "Chloramphenicol"
+
+msgctxt "generic"
+msgid "cefixime"
+msgstr "Cefixime"
+
+msgctxt "generic"
+msgid "metronidazole"
+msgstr "Metronidazole"
+
+msgctxt "generic"
+msgid "mesalamine"
+msgstr "Mesalamine"
+
+msgctxt "generic"
+msgid "albendazole"
+msgstr "Albendazole"
+
+msgctxt "generic"
+msgid "norfloxacin"
+msgstr "Norfloxacin"
+
+msgctxt "generic"
+msgid "doryx"
+msgstr "Doryx"
+
+msgctxt "generic"
+msgid "dexamethasone"
+msgstr "Dexamethasone"
+
+msgctxt "generic"
+msgid "diclofenac"
+msgstr "Diclofenac"
+
+msgctxt "generic"
+msgid "mefenamic_acid"
+msgstr "Mefenamic Acid"
+
+msgctxt "generic"
+msgid "risedronate_sodium"
+msgstr "Risedronate Sodium"
+
+msgctxt "generic"
+msgid "alendronate"
+msgstr "Alendronate"
+
+msgctxt "generic"
+msgid "amlodipine"
+msgstr "Amlodipine"
+
+msgctxt "generic"
+msgid "enalapril"
+msgstr "Enalapril"
+
+msgctxt "generic"
+msgid "amiodarone"
+msgstr "Amiodarone"
+
+msgctxt "generic"
+msgid "felodipine"
+msgstr "Felodipine"
+
+msgctxt "generic"
+msgid "simvastatin"
+msgstr "Simvastatin"
+
+msgctxt "generic"
+msgid "nimodipine"
+msgstr "Nimodipine"
+
+msgctxt "generic"
+msgid "diltiazem"
+msgstr "Diltiazem"
+
+msgctxt "generic"
+msgid "propranolol"
+msgstr "Propranolol"
+
+msgctxt "generic"
+msgid "aggrenox"
+msgstr "Aggrenox"
+
+msgctxt "generic"
+msgid "nebivolol"
+msgstr "Nebivolol"
+
+msgctxt "generic"
+msgid "atenolol"
+msgstr "Atenolol"
+
+msgctxt "generic"
+msgid "sotalol"
+msgstr "Sotalol"
+
+msgctxt "generic"
+msgid "metoprolol"
+msgstr "Metoprolol"
+
+msgctxt "generic"
+msgid "telmisartan"
+msgstr "Telmisartan"
+
+msgctxt "generic"
+msgid "monopril"
+msgstr "Monopril"
+
+msgctxt "generic"
+msgid "valsartan"
+msgstr "Valsartan"
+
+msgctxt "generic"
+msgid "digoxin"
+msgstr "Digoxin"
+
+msgctxt "generic"
+msgid "ramipril"
+msgstr "Ramipril"
+
+msgctxt "generic"
+msgid "acetazolamide"
+msgstr "Acetazolamide"
+
+msgctxt "generic"
+msgid "lansoprazole"
+msgstr "Lansoprazole"
+
+msgctxt "generic"
+msgid "metoclopramide"
+msgstr "Metoclopramide"
+
+msgctxt "generic"
+msgid "benazepril"
+msgstr "Benazepril"
+
+msgctxt "generic"
+msgid "carvedilol"
+msgstr "Carvedilol"
+
+msgctxt "generic"
+msgid "oretic"
+msgstr "Oretic"
+
+msgctxt "generic"
+msgid "ranitidine"
+msgstr "Ranitidine"
+
+msgctxt "generic"
+msgid "verapamil"
+msgstr "Verapamil"
+
+msgctxt "generic"
+msgid "captopril"
+msgstr "Captopril"
+
+msgctxt "generic"
+msgid "clopidogrel"
+msgstr "Clopidogrel"
+
+msgctxt "generic"
+msgid "nifedipine"
+msgstr "Nifedipine"
+
+msgctxt "generic"
+msgid "trihexyphenidyl"
+msgstr "Trihexyphenidyl"
+
+msgctxt "generic"
+msgid "carbidopa_levodopa"
+msgstr "Carbidopa Levodopa"
+
+msgctxt "generic"
+msgid "selegiline"
+msgstr "Selegiline"
+
+msgctxt "generic"
+msgid "bromocriptine"
+msgstr "Bromocriptine"
+
+msgctxt "generic"
+msgid "mebeverine"
+msgstr "Mebeverine"
+
+msgctxt "generic"
+msgid "misoprostol"
+msgstr "Misoprostol"
+
+msgctxt "generic"
+msgid "pantoprazole"
+msgstr "Pantoprazole"
+
+msgctxt "generic"
+msgid "ondansetron"
+msgstr "Ondansetron"
+
+msgctxt "generic"
+msgid "omeprazole"
+msgstr "Omeprazole"
+
+msgctxt "generic"
+msgid "esomeprazole"
+msgstr "Esomeprazole"
+
+msgctxt "generic"
+msgid "ketoconazole"
+msgstr "Ketoconazole"
+
+msgctxt "generic"
+msgid "griseofulvin"
+msgstr "Griseofulvin"
+
+msgctxt "generic"
+msgid "ortho"
+msgstr "Ortho"
+
+msgctxt "generic"
+msgid "medroxyprogesterone"
+msgstr "Medroxyprogesterone"
+
+msgctxt "generic"
+msgid "raloxifene"
+msgstr "Raloxifene"
+
+msgctxt "generic"
+msgid "norethindrone"
+msgstr "Norethindrone"
+
+msgctxt "generic"
+msgid "levonorgestrel_ethinyl"
+msgstr "Levonorgestrel Ethinyl"
+
+msgctxt "generic"
+msgid "serophene"
+msgstr "Serophene"
+
+msgctxt "generic"
+msgid "femcare"
+msgstr "Femcare"
+
+msgctxt "generic"
+msgid "conjugated_estrogens"
+msgstr "Conjugated Estrogens"
+
+msgctxt "generic"
+msgid "ibuprofen"
+msgstr "Ibuprofen"
+
+msgctxt "generic"
+msgid "ethinylestradiol"
+msgstr "Ethinylestradiol"
+
+msgctxt "generic"
+msgid "fluconazole"
+msgstr "Fluconazole"
+
+msgctxt "generic"
+msgid "triamcinolone"
+msgstr "Triamcinolone"
+
+msgctxt "generic"
+msgid "anastrozole"
+msgstr "Anastrozole"
+
+msgctxt "generic"
+msgid "estradiol"
+msgstr "Estradiol"
+
+msgctxt "generic"
+msgid "desogestrel"
+msgstr "Desogestrel,"
+
+msgctxt "generic"
+msgid "ethinyl_estradiol"
+msgstr "Ethinyl Estradiol"
+
+msgctxt "generic"
+msgid "fluvoxamine"
+msgstr "Fluvoxamine"
+
+msgctxt "generic"
+msgid "clomiphene"
+msgstr "Clomiphene"
+
+msgctxt "generic"
+msgid "letrozole"
+msgstr "Letrozole"
+
+msgctxt "generic"
+msgid "danazol"
+msgstr "Danazol"
+
+msgctxt "generic"
+msgid "tetracycline"
+msgstr "Tetracycline"
+
+msgctxt "generic"
+msgid "ethambutol"
+msgstr "Ethambutol"
+
+msgctxt "generic"
+msgid "biaxin"
+msgstr "Biaxin"
+
+msgctxt "generic"
+msgid "tacrolimus"
+msgstr "Tacrolimus"
+
+msgctxt "generic"
+msgid "cefdinir"
+msgstr "Cefdinir"
+
+msgctxt "generic"
+msgid "eryc"
+msgstr "Eryc"
+
+msgctxt "generic"
+msgid "clarithromycin"
+msgstr "Clarithromycin"
+
+msgctxt "generic"
+msgid "azithromycin"
+msgstr "Azithromycin"
+
+msgctxt "generic"
+msgid "ciprofloxacin"
+msgstr "Ciprofloxacin"
+
+msgctxt "generic"
+msgid "levofloxacin"
+msgstr "Levofloxacin"
+
+msgctxt "generic"
+msgid "ofloxacin"
+msgstr "Ofloxacin"
+
+msgctxt "generic"
+msgid "emycin"
+msgstr "Emycin"
+
+msgctxt "generic"
+msgid "lamivudine"
+msgstr "Lamivudine"
+
+msgctxt "generic"
+msgid "indinavir"
+msgstr "Indinavir"
+
+msgctxt "generic"
+msgid "stavudine"
+msgstr "Stavudine"
+
+msgctxt "generic"
+msgid "famciclovir"
+msgstr "Famciclovir"
+
+msgctxt "generic"
+msgid "acyclovir"
+msgstr "Acyclovir"
+
+msgctxt "generic"
+msgid "lamictal"
+msgstr "Lamictal"
+
+msgctxt "generic"
+msgid "carbamazepine"
+msgstr "Carbamazepine"
+
+msgctxt "generic"
+msgid "topiramate"
+msgstr "Topiramate"
+
+msgctxt "generic"
+msgid "divalproex"
+msgstr "Divalproex"
+
+msgctxt "generic"
+msgid "lamotrigine"
+msgstr "Lamotrigine"
+
+msgctxt "generic"
+msgid "olanzapine"
+msgstr "Olanzapine"
+
+msgctxt "generic"
+msgid "quetiapine"
+msgstr "Quetiapine"
+
+msgctxt "generic"
+msgid "duloxetine"
+msgstr "Duloxetine"
+
+msgctxt "generic"
+msgid "venlafaxine"
+msgstr "Venlafaxine"
+
+msgctxt "generic"
+msgid "amitriptyline"
+msgstr "Amitriptyline"
+
+msgctxt "generic"
+msgid "mirtazapine"
+msgstr "Mirtazapine"
+
+msgctxt "generic"
+msgid "citalopram"
+msgstr "Citalopram"
+
+msgctxt "generic"
+msgid "nortriptyline"
+msgstr "Nortriptyline"
+
+msgctxt "generic"
+msgid "paroxetine"
+msgstr "Paroxetine"
+
+msgctxt "generic"
+msgid "escitalopram"
+msgstr "Escitalopram"
+
+msgctxt "generic"
+msgid "trazodone"
+msgstr "Trazodone"
+
+msgctxt "generic"
+msgid "doxepin"
+msgstr "Doxepin"
+
+msgctxt "generic"
+msgid "orlistat"
+msgstr "Orlistat"
+
+msgctxt "generic"
+msgid "pioglitazone_metformin"
+msgstr "Pioglitazone Metformin"
+
+msgctxt "generic"
+msgid "granisetron"
+msgstr "Granisetron"
+
+msgctxt "generic"
+msgid "tamoxifen"
+msgstr "Tamoxifen"
+
+msgctxt "generic"
+msgid "hydroxyurea"
+msgstr "Hydroxyurea"
+
+msgctxt "generic"
+msgid "cyclophosphamide"
+msgstr "Cyclophosphamide"
+
+msgctxt "generic"
+msgid "mefloquine"
+msgstr "Mefloquine"
+
+msgctxt "generic"
+msgid "prednisone"
+msgstr "Prednisone"
+
+msgctxt "generic"
+msgid "mebendazole"
+msgstr "Mebendazole"
+
+msgctxt "generic"
+msgid "naltrexone"
+msgstr "Naltrexone"
+
+msgctxt "generic"
+msgid "pentoxifylline"
+msgstr "Pentoxifylline"
+
+msgctxt "generic"
+msgid "pyridostigmine"
+msgstr "Pyridostigmine"
+
+msgctxt "generic"
+msgid "donepezil"
+msgstr "Donepezil"
+
+msgctxt "generic"
+msgid "valacyclovir"
+msgstr "Valacyclovir"
+
+msgctxt "generic"
+msgid "calcitriol"
+msgstr "Calcitriol"
+
+msgctxt "generic"
+msgid "ipratropium"
+msgstr "Ipratropium"
+
+msgctxt "generic"
+msgid "ropinirole"
+msgstr "Ropinirole"
+
+msgctxt "generic"
+msgid "allopurinol"
+msgstr "Allopurinol"
+
+msgctxt "generic"
+msgid "sevelamer"
+msgstr "Sevelamer"
+
+msgctxt "generic"
+msgid "disulfiram"
+msgstr "Disulfiram"
+
+msgctxt "generic"
+msgid "oxcarbazepine"
+msgstr "Oxcarbazepine"
+
+msgctxt "generic"
+msgid "periostat"
+msgstr "Periostat"
+
+msgctxt "generic"
+msgid "metformin"
+msgstr "Metformin"
+
+msgctxt "generic"
+msgid "glyburide"
+msgstr "Glyburide"
+
+msgctxt "generic"
+msgid "glimepiride"
+msgstr "Glimepiride"
+
+msgctxt "generic"
+msgid "irbesartan"
+msgstr "Irbesartan"
+
+msgctxt "generic"
+msgid "glipizide"
+msgstr "Glipizide"
+
+msgctxt "generic"
+msgid "repaglinide"
+msgstr "Repaglinide"
+
+msgctxt "generic"
+msgid "pioglitazone"
+msgstr "Pioglitazone"
+
+msgctxt "generic"
+msgid "nateglinide"
+msgstr "Nateglinide"
+
+msgctxt "generic"
+msgid "acarbose"
+msgstr "Acarbose"
+
+msgctxt "generic"
+msgid "rosiglitazone"
+msgstr "Rosiglitazone"
+
+msgctxt "generic"
+msgid "amiloride_hydrochlorothiazide"
+msgstr "Amiloride Hydrochlorothiazide"
+
+msgctxt "generic"
+msgid "labetalol"
+msgstr "Labetalol"
+
+msgctxt "generic"
+msgid "lisinopril_hydrochlorothiazide"
+msgstr "Lisinopril Hydrochlorothiazide"
+
+msgctxt "generic"
+msgid "candesartan"
+msgstr "Candesartan"
+
+msgctxt "generic"
+msgid "hydrodiuril"
+msgstr "Hydrodiuril"
+
+msgctxt "generic"
+msgid "esidrix"
+msgstr "Esidrix"
+
+msgctxt "generic"
+msgid "clonidine"
+msgstr "Clonidine"
+
+msgctxt "generic"
+msgid "warfarin"
+msgstr "Warfarin"
+
+msgctxt "generic"
+msgid "gemfibrozil"
+msgstr "Gemfibrozil"
+
+msgctxt "generic"
+msgid "losartan"
+msgstr "Losartan"
+
+msgctxt "generic"
+msgid "bisoprolol"
+msgstr "Bisoprolol"
+
+msgctxt "generic"
+msgid "terazosin"
+msgstr "Terazosin"
+
+msgctxt "generic"
+msgid "vaseretic"
+msgstr "Vaseretic"
+
+msgctxt "generic"
+msgid "doxazosin"
+msgstr "Doxazosin"
+
+msgctxt "generic"
+msgid "perindopril_erbumine"
+msgstr "Perindopril Erbumine"
+
+msgctxt "generic"
+msgid "torsemide"
+msgstr "Torsemide"
+
+msgctxt "generic"
+msgid "azathioprine"
+msgstr "Azathioprine"
+
+msgctxt "generic"
+msgid "tranexamic_acid"
+msgstr "Tranexamic Acid"
+
+msgctxt "generic"
+msgid "albuterol"
+msgstr "Albuterol"
+
+msgctxt "generic"
+msgid "cefpodoxime"
+msgstr "Cefpodoxime"
+
+msgctxt "generic"
+msgid "sulfasalazine"
+msgstr "Sulfasalazine"
+
+msgctxt "generic"
+msgid "nabumetone"
+msgstr "Nabumetone"
+
+msgctxt "generic"
+msgid "gabapentin"
+msgstr "Gabapentin"
+
+msgctxt "generic"
+msgid "piroxicam"
+msgstr "Piroxicam"
+
+msgctxt "generic"
+msgid "sumatriptan"
+msgstr "Sumatriptan"
+
+msgctxt "generic"
+msgid "cilostazol"
+msgstr "Cilostazol"
+
+msgctxt "generic"
+msgid "tolterodine"
+msgstr "Tolterodine"
+
+msgctxt "generic"
+msgid "phenazopyridine"
+msgstr "Phenazopyridine"
+
+msgctxt "generic"
+msgid "ergotamine_caffeine"
+msgstr "Ergotamine Caffeine"
+
+msgctxt "generic"
+msgid "rizatriptan"
+msgstr "Rizatriptan"
+
+msgctxt "generic"
+msgid "levothyroxine"
+msgstr "Levothyroxine"
+
+msgctxt "generic"
+msgid "cabergoline"
+msgstr "Cabergoline"
+
+msgctxt "generic"
+msgid "isotretinoin"
+msgstr "Isotretinoin"
+
+msgctxt "generic"
+msgid "benzoyl_peroxide"
+msgstr "Benzoyl Peroxide"
+
+msgctxt "generic"
+msgid "terbinafine"
+msgstr "Terbinafine"
+
+msgctxt "generic"
+msgid "celecoxib"
+msgstr "Celecoxib"
+
+msgctxt "generic"
+msgid "meloxicam"
+msgstr "Meloxicam"
+
+msgctxt "generic"
+msgid "probenecid"
+msgstr "Probenecid"
+
+msgctxt "generic"
+msgid "leflunomide"
+msgstr "Leflunomide"
+
+msgctxt "generic"
+msgid "risperidone"
+msgstr "Risperidone"
+
+msgctxt "generic"
+msgid "phenytoin"
+msgstr "Phenytoin"
+
+msgctxt "generic"
+msgid "rivastigmine"
+msgstr "Rivastigmine"
+
+msgctxt "generic"
+msgid "methocarbamol"
+msgstr "Methocarbamol"
+
+msgctxt "generic"
+msgid "flavoxate"
+msgstr "Flavoxate"
+
+msgctxt "generic"
+msgid "tizanidine"
+msgstr "Tizanidine"
+
+msgctxt "generic"
+msgid "baclofen"
+msgstr "Baclofen"
+
+msgctxt "products"
+msgid "wellbutrin"
+msgstr "Wellbutrin"
+
+msgctxt "products"
+msgid "zetia"
+msgstr "Zetia"
+
+msgctxt "products"
+msgid "vytorin"
+msgstr "Vytorin"
+
+msgctxt "products"
+msgid "tricor"
+msgstr "Tricor"
+
+msgctxt "products"
+msgid "lipitor"
+msgstr "Lipitor"
+
+msgctxt "products"
+msgid "caverta"
+msgstr "Caverta"
+
+msgctxt "products"
+msgid "proscar"
+msgstr "Proscar"
+
+msgctxt "products"
+msgid "macrodantin"
+msgstr "Macrodantin"
+
+msgctxt "products"
+msgid "minipress"
+msgstr "Minipress"
+
+msgctxt "products"
+msgid "casodex"
+msgstr "Casodex"
+
+msgctxt "products"
+msgid "flomax"
+msgstr "Flomax"
+
+msgctxt "products"
+msgid "avodart"
+msgstr "Avodart"
+
+msgctxt "products"
+msgid "kamagra_soft"
+msgstr "Kamagra Soft"
+
+msgctxt "products"
+msgid "uroxatral"
+msgstr "Uroxatral"
+
+msgctxt "products"
+msgid "tadalis_sx"
+msgstr "Tadalis SX"
+
+msgctxt "products"
+msgid "viagra"
+msgstr "Viagra"
+
+msgctxt "products"
+msgid "cialis_soft"
+msgstr "Cialis Soft"
+
+msgctxt "products"
+msgid "cialis"
+msgstr "Cialis"
+
+msgctxt "products"
+msgid "kamagra"
+msgstr "Kamagra"
+
+msgctxt "products"
+msgid "eulexin"
+msgstr "Eulexin"
+
+msgctxt "products"
+msgid "levitra"
+msgstr "Levitra"
+
+msgctxt "products"
+msgid "silagra"
+msgstr "Silagra"
+
+msgctxt "products"
+msgid "keflex"
+msgstr "Keflex"
+
+msgctxt "products"
+msgid "furadantin"
+msgstr "Furadantin"
+
+msgctxt "products"
+msgid "kamagra_oral_jelly"
+msgstr "Kamagra Oral Jelly"
+
+msgctxt "products"
+msgid "ditropan"
+msgstr "Ditropan"
+
+msgctxt "products"
+msgid "viagra_soft"
+msgstr "Viagra Soft"
+
+msgctxt "products"
+msgid "propecia"
+msgstr "Propecia"
+
+msgctxt "products"
+msgid "aleve"
+msgstr "Aleve"
+
+msgctxt "products"
+msgid "augmentin"
+msgstr "Augmentin"
+
+msgctxt "products"
+msgid "indocin"
+msgstr "Indocin"
+
+msgctxt "products"
+msgid "minomycin"
+msgstr "Minomycin"
+
+msgctxt "products"
+msgid "aralen"
+msgstr "Aralen"
+
+msgctxt "products"
+msgid "cleocin"
+msgstr "Cleocin"
+
+msgctxt "products"
+msgid "aldactone"
+msgstr "Aldactone"
+
+msgctxt "products"
+msgid "lozol"
+msgstr "Lozol"
+
+msgctxt "products"
+msgid "lasix"
+msgstr "Lasix"
+
+msgctxt "products"
+msgid "microzide"
+msgstr "Microzide"
+
+msgctxt "products"
+msgid "aciphex"
+msgstr "Aciphex"
+
+msgctxt "products"
+msgid "buspar"
+msgstr "Buspar"
+
+msgctxt "products"
+msgid "lithobid"
+msgstr "Lithobid"
+
+msgctxt "products"
+msgid "eskalith"
+msgstr "Eskalith"
+
+msgctxt "products"
+msgid "compazine"
+msgstr "Compazine"
+
+msgctxt "products"
+msgid "clozaril"
+msgstr "Clozaril"
+
+msgctxt "products"
+msgid "anafranil"
+msgstr "Anafranil"
+
+msgctxt "products"
+msgid "abilify"
+msgstr "Abilify"
+
+msgctxt "products"
+msgid "strattera"
+msgstr "Strattera"
+
+msgctxt "products"
+msgid "singulair"
+msgstr "Singulair"
+
+msgctxt "products"
+msgid "allegra"
+msgstr "Allegra"
+
+msgctxt "products"
+msgid "atarax"
+msgstr "Atarax"
+
+msgctxt "products"
+msgid "claritin"
+msgstr "Claritin"
+
+msgctxt "products"
+msgid "periactin"
+msgstr "Periactin"
+
+msgctxt "products"
+msgid "advair_diskus"
+msgstr "Advair Diskus"
+
+msgctxt "products"
+msgid "zyrtec"
+msgstr "Zyrtec"
+
+msgctxt "products"
+msgid "ceftin"
+msgstr "Ceftin"
+
+msgctxt "products"
+msgid "bactrim"
+msgstr "Bactrim"
+
+msgctxt "products"
+msgid "zyvox"
+msgstr "Zyvox"
+
+msgctxt "products"
+msgid "stromectol"
+msgstr "Stromectol"
+
+msgctxt "products"
+msgid "chloromycetin"
+msgstr "Chloromycetin"
+
+msgctxt "products"
+msgid "suprax"
+msgstr "Suprax"
+
+msgctxt "products"
+msgid "chloroquine"
+msgstr "Chloroquine"
+
+msgctxt "products"
+msgid "flagyl"
+msgstr "Flagyl"
+
+msgctxt "products"
+msgid "asacol"
+msgstr "Asacol"
+
+msgctxt "products"
+msgid "monodox"
+msgstr "Monodox"
+
+msgctxt "products"
+msgid "noroxin"
+msgstr "Noroxin"
+
+msgctxt "products"
+msgid "doryx"
+msgstr "Doryx"
+
+msgctxt "products"
+msgid "canasa"
+msgstr "Canasa"
+
+msgctxt "products"
+msgid "trimox"
+msgstr "Trimox"
+
+msgctxt "products"
+msgid "decadron"
+msgstr "Decadron"
+
+msgctxt "products"
+msgid "voltarol"
+msgstr "Voltarol"
+
+msgctxt "products"
+msgid "ponstel"
+msgstr "Ponstel"
+
+msgctxt "products"
+msgid "actonel"
+msgstr "Actonel"
+
+msgctxt "products"
+msgid "fosamax"
+msgstr "Fosamax"
+
+msgctxt "products"
+msgid "norvasc"
+msgstr "Norvasc"
+
+msgctxt "products"
+msgid "enalapril"
+msgstr "Enalapril"
+
+msgctxt "products"
+msgid "pacerone"
+msgstr "Pacerone"
+
+msgctxt "products"
+msgid "plendil"
+msgstr "Plendil"
+
+msgctxt "products"
+msgid "zocor"
+msgstr "Zocor"
+
+msgctxt "products"
+msgid "nimotop"
+msgstr "Nimotop"
+
+msgctxt "products"
+msgid "cardizem"
+msgstr "Cardizem"
+
+msgctxt "products"
+msgid "inderal"
+msgstr "Inderal"
+
+msgctxt "products"
+msgid "tiazac"
+msgstr "Tiazac"
+
+msgctxt "products"
+msgid "aggrenox"
+msgstr "Aggrenox"
+
+msgctxt "products"
+msgid "nebilet"
+msgstr "Nebilet"
+
+msgctxt "products"
+msgid "tenoretic"
+msgstr "Tenoretic"
+
+msgctxt "products"
+msgid "betapace"
+msgstr "Betapace"
+
+msgctxt "products"
+msgid "toprol"
+msgstr "Toprol"
+
+msgctxt "products"
+msgid "micardis"
+msgstr "Micardis"
+
+msgctxt "products"
+msgid "monopril"
+msgstr "Monopril"
+
+msgctxt "products"
+msgid "lopressor"
+msgstr "Lopressor"
+
+msgctxt "products"
+msgid "diovan"
+msgstr "Diovan"
+
+msgctxt "products"
+msgid "cartia"
+msgstr "Cartia"
+
+msgctxt "products"
+msgid "lanoxin"
+msgstr "Lanoxin"
+
+msgctxt "products"
+msgid "digitek"
+msgstr "Digitek"
+
+msgctxt "products"
+msgid "altace"
+msgstr "Altace"
+
+msgctxt "products"
+msgid "diamox"
+msgstr "Diamox"
+
+msgctxt "products"
+msgid "prevacid"
+msgstr "Prevacid"
+
+msgctxt "products"
+msgid "cordarone"
+msgstr "Cordarone"
+
+msgctxt "products"
+msgid "reglan"
+msgstr "Reglan"
+
+msgctxt "products"
+msgid "tenormin"
+msgstr "Tenormin"
+
+msgctxt "products"
+msgid "lotensin"
+msgstr "Lotensin"
+
+msgctxt "products"
+msgid "coreg"
+msgstr "Coreg"
+
+msgctxt "products"
+msgid "vasotec"
+msgstr "Vasotec"
+
+msgctxt "products"
+msgid "oretic"
+msgstr "Oretic"
+
+msgctxt "products"
+msgid "zantac"
+msgstr "Zantac"
+
+msgctxt "products"
+msgid "calan"
+msgstr "Calan"
+
+msgctxt "products"
+msgid "capoten"
+msgstr "Capoten"
+
+msgctxt "products"
+msgid "plavix"
+msgstr "Plavix"
+
+msgctxt "products"
+msgid "diltiazem"
+msgstr "Diltiazem"
+
+msgctxt "products"
+msgid "procardia"
+msgstr "Procardia"
+
+msgctxt "products"
+msgid "artane"
+msgstr "Artane"
+
+msgctxt "products"
+msgid "sinemet"
+msgstr "Sinemet"
+
+msgctxt "products"
+msgid "eldepryl"
+msgstr "Eldepryl"
+
+msgctxt "products"
+msgid "parlodel"
+msgstr "Parlodel"
+
+msgctxt "products"
+msgid "pentasa"
+msgstr "Pentasa"
+
+msgctxt "products"
+msgid "colospa"
+msgstr "Colospa"
+
+msgctxt "products"
+msgid "cytotec"
+msgstr "Cytotec"
+
+msgctxt "products"
+msgid "protonix"
+msgstr "Protonix"
+
+msgctxt "products"
+msgid "zofran"
+msgstr "Zofran"
+
+msgctxt "products"
+msgid "prilosec"
+msgstr "Prilosec"
+
+msgctxt "products"
+msgid "nexium"
+msgstr "Nexium"
+
+msgctxt "products"
+msgid "nizoral"
+msgstr "Nizoral"
+
+msgctxt "products"
+msgid "grisactin"
+msgstr "Grisactin"
+
+msgctxt "products"
+msgid "ortho_micronor"
+msgstr "Ortho Micronor"
+
+msgctxt "products"
+msgid "provera"
+msgstr "Provera"
+
+msgctxt "products"
+msgid "evista"
+msgstr "Evista"
+
+msgctxt "products"
+msgid "aygestin"
+msgstr "Aygestin"
+
+msgctxt "products"
+msgid "levora"
+msgstr "Levora"
+
+msgctxt "products"
+msgid "serophene"
+msgstr "Serophene"
+
+msgctxt "products"
+msgid "plan_b"
+msgstr "Plan B"
+
+msgctxt "products"
+msgid "femcare"
+msgstr "Femcare"
+
+msgctxt "products"
+msgid "alesse"
+msgstr "Alesse"
+
+msgctxt "products"
+msgid "premarin"
+msgstr "Premarin"
+
+msgctxt "products"
+msgid "norethindrone"
+msgstr "Norethindrone"
+
+msgctxt "products"
+msgid "motrin"
+msgstr "Motrin"
+
+msgctxt "products"
+msgid "ovral"
+msgstr "Ovral"
+
+msgctxt "products"
+msgid "diflucan"
+msgstr "Diflucan"
+
+msgctxt "products"
+msgid "aristocort"
+msgstr "Aristocort"
+
+msgctxt "products"
+msgid "arimidex"
+msgstr "Arimidex"
+
+msgctxt "products"
+msgid "norplant"
+msgstr "Norplant"
+
+msgctxt "products"
+msgid "apri"
+msgstr "Apri"
+
+msgctxt "products"
+msgid "estrace"
+msgstr "Estrace"
+
+msgctxt "products"
+msgid "mircette"
+msgstr "Mircette"
+
+msgctxt "products"
+msgid "luvox"
+msgstr "Luvox"
+
+msgctxt "products"
+msgid "lynoral"
+msgstr "Lynoral"
+
+msgctxt "products"
+msgid "clomid"
+msgstr "Clomid"
+
+msgctxt "products"
+msgid "cataflam"
+msgstr "Cataflam"
+
+msgctxt "products"
+msgid "cycrin"
+msgstr "Cycrin"
+
+msgctxt "products"
+msgid "femara"
+msgstr "Femara"
+
+msgctxt "products"
+msgid "danocrine"
+msgstr "Danocrine"
+
+msgctxt "products"
+msgid "sumycin"
+msgstr "Sumycin"
+
+msgctxt "products"
+msgid "myambutol"
+msgstr "Myambutol"
+
+msgctxt "products"
+msgid "biaxin"
+msgstr "Biaxin"
+
+msgctxt "products"
+msgid "prograf"
+msgstr "Prograf"
+
+msgctxt "products"
+msgid "omnicef"
+msgstr "Omnicef"
+
+msgctxt "products"
+msgid "eryc"
+msgstr "Eryc"
+
+msgctxt "products"
+msgid "keftab"
+msgstr "Keftab"
+
+msgctxt "products"
+msgid "macrobid"
+msgstr "Macrobid"
+
+msgctxt "products"
+msgid "zithromax"
+msgstr "Zithromax"
+
+msgctxt "products"
+msgid "cipro"
+msgstr "Cipro"
+
+msgctxt "products"
+msgid "levaquin"
+msgstr "Levaquin"
+
+msgctxt "products"
+msgid "floxin"
+msgstr "Floxin"
+
+msgctxt "products"
+msgid "amoxil"
+msgstr "Amoxil"
+
+msgctxt "products"
+msgid "emycin"
+msgstr "Emycin"
+
+msgctxt "products"
+msgid "epivir_3tc"
+msgstr "Epivir_3tc"
+
+msgctxt "products"
+msgid "crixivan"
+msgstr "Crixivan"
+
+msgctxt "products"
+msgid "zerit"
+msgstr "Zerit"
+
+msgctxt "products"
+msgid "famvir"
+msgstr "Famvir"
+
+msgctxt "products"
+msgid "zovirax"
+msgstr "Zovirax"
+
+msgctxt "products"
+msgid "lamictal_dispersible"
+msgstr "Lamictal"
+
+msgctxt "products"
+msgid "tegretol"
+msgstr "Tegretol"
+
+msgctxt "products"
+msgid "topamax"
+msgstr "Topamax"
+
+msgctxt "products"
+msgid "depakote"
+msgstr "Depakote"
+
+msgctxt "products"
+msgid "lamictal"
+msgstr "Lamictal"
+
+msgctxt "products"
+msgid "zyprexa"
+msgstr "Zyprexa"
+
+msgctxt "products"
+msgid "seroquel"
+msgstr "Seroquel"
+
+msgctxt "products"
+msgid "cymbalta"
+msgstr "Cymbalta"
+
+msgctxt "products"
+msgid "effexor"
+msgstr "Effexor"
+
+msgctxt "products"
+msgid "elavil"
+msgstr "Elavil"
+
+msgctxt "products"
+msgid "endep"
+msgstr "Endep"
+
+msgctxt "products"
+msgid "remeron"
+msgstr "Remeron"
+
+msgctxt "products"
+msgid "celexa"
+msgstr "Celexa"
+
+msgctxt "products"
+msgid "pamelor"
+msgstr "Pamelor"
+
+msgctxt "products"
+msgid "wellbutrin_sr"
+msgstr "Wellbutrin SR"
+
+msgctxt "products"
+msgid "paxil"
+msgstr "Paxil"
+
+msgctxt "products"
+msgid "lexapro"
+msgstr "Lexapro"
+
+msgctxt "products"
+msgid "desyrel"
+msgstr "Desyrel"
+
+msgctxt "products"
+msgid "sinequan"
+msgstr "Sinequan"
+
+msgctxt "products"
+msgid "aventyl"
+msgstr "Aventyl"
+
+msgctxt "products"
+msgid "effexor_xr"
+msgstr "Effexor XR"
+
+msgctxt "products"
+msgid "xenical"
+msgstr "Xenical"
+
+msgctxt "products"
+msgid "actoplus_met"
+msgstr "Actoplus Met"
+
+msgctxt "products"
+msgid "albenza"
+msgstr "Albenza"
+
+msgctxt "products"
+msgid "kytril"
+msgstr "Kytril"
+
+msgctxt "products"
+msgid "nolvadex"
+msgstr "Nolvadex"
+
+msgctxt "products"
+msgid "droxia"
+msgstr "Droxia"
+
+msgctxt "products"
+msgid "cytoxan"
+msgstr "Cytoxan"
+
+msgctxt "products"
+msgid "hydrea"
+msgstr "Hydrea"
+
+msgctxt "products"
+msgid "lariam"
+msgstr "Lariam"
+
+msgctxt "products"
+msgid "deltasone"
+msgstr "Deltasone"
+
+msgctxt "products"
+msgid "vermox"
+msgstr "Vermox"
+
+msgctxt "products"
+msgid "revia"
+msgstr "Revia"
+
+msgctxt "products"
+msgid "trental"
+msgstr "Trental"
+
+msgctxt "products"
+msgid "mestinon"
+msgstr "Mestinon"
+
+msgctxt "products"
+msgid "aricept"
+msgstr "Aricept"
+
+msgctxt "products"
+msgid "valtrex"
+msgstr "Valtrex"
+
+msgctxt "products"
+msgid "minocin"
+msgstr "Minocin"
+
+msgctxt "products"
+msgid "rocaltrol"
+msgstr "Rocaltrol"
+
+msgctxt "products"
+msgid "atrovent"
+msgstr "Atrovent"
+
+msgctxt "products"
+msgid "requip"
+msgstr "Requip"
+
+msgctxt "products"
+msgid "zyloprim"
+msgstr "Zyloprim"
+
+msgctxt "products"
+msgid "renagel"
+msgstr "Renagel"
+
+msgctxt "products"
+msgid "antabuse"
+msgstr "Antabuse"
+
+msgctxt "products"
+msgid "trileptal"
+msgstr "Trileptal"
+
+msgctxt "products"
+msgid "periostat"
+msgstr "Periostat"
+
+msgctxt "products"
+msgid "metaglip"
+msgstr "Metaglip"
+
+msgctxt "products"
+msgid "micronase"
+msgstr "Micronase"
+
+msgctxt "products"
+msgid "glucophage"
+msgstr "Glucophage"
+
+msgctxt "products"
+msgid "avandaryl"
+msgstr "Avandaryl"
+
+msgctxt "products"
+msgid "avapro"
+msgstr "Avapro"
+
+msgctxt "products"
+msgid "glucotrol_xl"
+msgstr "Glucotrol XL"
+
+msgctxt "products"
+msgid "prandin"
+msgstr "Prandin"
+
+msgctxt "products"
+msgid "actos"
+msgstr "Actos"
+
+msgctxt "products"
+msgid "starlix"
+msgstr "Starlix"
+
+msgctxt "products"
+msgid "glucovance"
+msgstr "Glucovance"
+
+msgctxt "products"
+msgid "precose"
+msgstr "Precose"
+
+msgctxt "products"
+msgid "amaryl"
+msgstr "Amaryl"
+
+msgctxt "products"
+msgid "avandamet"
+msgstr "Avandamet"
+
+msgctxt "products"
+msgid "moduretic"
+msgstr "Moduretic"
+
+msgctxt "products"
+msgid "trandate"
+msgstr "Trandate"
+
+msgctxt "products"
+msgid "zestoretic"
+msgstr "Zestoretic"
+
+msgctxt "products"
+msgid "atacand"
+msgstr "Atacand"
+
+msgctxt "products"
+msgid "hydrodiuril"
+msgstr "Hydrodiuril"
+
+msgctxt "products"
+msgid "caduet"
+msgstr "Caduet"
+
+msgctxt "products"
+msgid "esidrix"
+msgstr "Esidrix"
+
+msgctxt "products"
+msgid "clorpres"
+msgstr "Clorpres"
+
+msgctxt "products"
+msgid "adalat"
+msgstr "Adalat"
+
+msgctxt "products"
+msgid "coumadin"
+msgstr "Coumadin"
+
+msgctxt "products"
+msgid "lopid"
+msgstr "Lopid"
+
+msgctxt "products"
+msgid "hyzaar"
+msgstr "Hyzaar"
+
+msgctxt "products"
+msgid "bisoprolol"
+msgstr "Bisoprolol"
+
+msgctxt "products"
+msgid "avalide"
+msgstr "Avalide"
+
+msgctxt "products"
+msgid "hytrin"
+msgstr "Hytrin"
+
+msgctxt "products"
+msgid "vaseretic"
+msgstr "Vaseretic"
+
+msgctxt "products"
+msgid "cardura"
+msgstr "Cardura"
+
+msgctxt "products"
+msgid "aceon"
+msgstr "Aceon"
+
+msgctxt "products"
+msgid "demadex"
+msgstr "Demadex"
+
+msgctxt "products"
+msgid "imuran"
+msgstr "Imuran"
+
+msgctxt "products"
+msgid "cyklokapron"
+msgstr "Cyklokapron"
+
+msgctxt "products"
+msgid "proventil"
+msgstr "Proventil"
+
+msgctxt "products"
+msgid "ventolin"
+msgstr "Ventolin"
+
+msgctxt "products"
+msgid "vantin"
+msgstr "Vantin"
+
+msgctxt "products"
+msgid "azulfidine"
+msgstr "Azulfidine"
+
+msgctxt "products"
+msgid "voltaren"
+msgstr "Voltaren"
+
+msgctxt "products"
+msgid "relafen"
+msgstr "Relafen"
+
+msgctxt "products"
+msgid "epitol"
+msgstr "Epitol"
+
+msgctxt "products"
+msgid "neurontin"
+msgstr "Neurontin"
+
+msgctxt "products"
+msgid "feldene"
+msgstr "Feldene"
+
+msgctxt "products"
+msgid "carbatrol"
+msgstr "Carbatrol"
+
+msgctxt "products"
+msgid "imitrex"
+msgstr "Imitrex"
+
+msgctxt "products"
+msgid "pletal"
+msgstr "Pletal"
+
+msgctxt "products"
+msgid "detrol"
+msgstr "Detrol"
+
+msgctxt "products"
+msgid "oxytrol"
+msgstr "Oxytrol"
+
+msgctxt "products"
+msgid "pyridium"
+msgstr "Pyridium"
+
+msgctxt "products"
+msgid "cafergot"
+msgstr "Cafergot"
+
+msgctxt "products"
+msgid "maxalt"
+msgstr "Maxalt"
+
+msgctxt "products"
+msgid "dexone"
+msgstr "Dexone"
+
+msgctxt "products"
+msgid "levoxyl"
+msgstr "Levoxyl"
+
+msgctxt "products"
+msgid "meticorten"
+msgstr "Meticorten"
+
+msgctxt "products"
+msgid "levothroid"
+msgstr "Levothroid"
+
+msgctxt "products"
+msgid "dostinex"
+msgstr "Dostinex"
+
+msgctxt "products"
+msgid "synthroid"
+msgstr "Synthroid"
+
+msgctxt "products"
+msgid "grifulvin"
+msgstr "Grifulvin"
+
+msgctxt "products"
+msgid "accutane"
+msgstr "Accutane"
+
+msgctxt "products"
+msgid "fulvicin"
+msgstr "Fulvicin"
+
+msgctxt "products"
+msgid "triderm"
+msgstr "Triderm"
+
+msgctxt "products"
+msgid "benzac"
+msgstr "Benzac"
+
+msgctxt "products"
+msgid "grifulvin_v"
+msgstr "Grifulvin V"
+
+msgctxt "products"
+msgid "sterapred"
+msgstr "Sterapred"
+
+msgctxt "products"
+msgid "lamisil"
+msgstr "Lamisil"
+
+msgctxt "products"
+msgid "celebrex"
+msgstr "Celebrex"
+
+msgctxt "products"
+msgid "mobic"
+msgstr "Mobic"
+
+msgctxt "products"
+msgid "naprelan"
+msgstr "Naprelan"
+
+msgctxt "products"
+msgid "benemid"
+msgstr "Benemid"
+
+msgctxt "products"
+msgid "anaprox"
+msgstr "Anaprox"
+
+msgctxt "products"
+msgid "arava"
+msgstr "Arava"
+
+msgctxt "products"
+msgid "probalan"
+msgstr "Probalan"
+
+msgctxt "products"
+msgid "risperdal"
+msgstr "Risperdal"
+
+msgctxt "products"
+msgid "dilantin"
+msgstr "Dilantin"
+
+msgctxt "products"
+msgid "exelon"
+msgstr "Exelon"
+
+msgctxt "products"
+msgid "robaxin"
+msgstr "Robaxin"
+
+msgctxt "products"
+msgid "urispas"
+msgstr "Urispas"
+
+msgctxt "products"
+msgid "zanaflex"
+msgstr "Zanaflex"
+
+msgctxt "products"
+msgid "lioresal"
+msgstr "Lioresal"

@@ -1,0 +1,39 @@
+{% load static %}
+{% load i18n %}
+{% get_static_prefix as STATIC_PREFIX %}
+{% load chunkify %}
+{% block bestsellers %}
+	<div class="recommended_items"><!--recommended_items-->
+		<h2 class="title text-center">{% trans 'bestsellers' %}</h2>
+		<div id="recommended-item-carousel" class="carousel slide" data-ride="carousel">
+			<div class="carousel-inner">
+				{% with bestsellers|chunk_list:3 as chunks %}
+					{% for chunk in chunks %}
+						<div class="item {% if forloop.first %} active {% endif %}">
+							{% for product in chunk %}
+								<div class="col-sm-4">
+									<div class="product-image-wrapper">
+										<div class="single-products">
+											<div class="productinfo text-center">
+												<img src="{{ STATIC_PREFIX }}products/{{ product.named_id|lower }}.png" alt="" />
+												<h2>${{ product.per_item|floatformat:2 }}</h2>
+												<p>{% trans product.named_id context 'products' %}</p>
+												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							{% endfor %}
+						</div>
+					{% endfor %}
+				{% endwith %}
+			</div>
+			 <a class="left recommended-item-control" href="#recommended-item-carousel" data-slide="prev">
+				<i class="fa fa-angle-left"></i>
+			  </a>
+			  <a class="right recommended-item-control" href="#recommended-item-carousel" data-slide="next">
+				<i class="fa fa-angle-right"></i>
+			  </a>
+		</div>
+	</div><!--/recommended_items-->
+{% endblock %}

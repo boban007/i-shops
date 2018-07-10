@@ -1,0 +1,36 @@
+{% load static %}
+{% load i18n %}
+{% block left_sidebar %}
+{% get_current_language as LANGUAGE_CODE %}
+    <div class="left-sidebar">
+        <h2>Category</h2>
+        <div class="panel-group category-products" id="accordian"><!--category-productsr-->
+            {% for category, products in menu.items %}
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordian" href="#{{category}}">
+                                <span class="badge pull-right"><i class="fa fa-plus"></i></span>
+                                {% trans category context 'category' %}
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="{{category}}" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <ul>
+                                {% for product in products %}
+                                    <li><a href="/{{LANGUAGE_CODE}}/product/{{product}}">{% trans product context 'products' %}</a></li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div><!--/category-products-->
+
+        <div class="shipping text-center"><!--shipping-->
+            <img src="{% static 'default/images/home/shipping.jpg' %}" alt="" />
+        </div><!--/shipping-->
+
+    </div>
+{% endblock %}

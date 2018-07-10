@@ -1,0 +1,29 @@
+{% extends '__base.html' %}
+{% block header %}
+    {% include '_header.html' %}
+{% endblock %}
+{% block slider %}
+    {% include '_slider.html' %}
+{% endblock %}
+{% block content %}
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3">
+                    {% block left_sidebar %}
+                        {% include '_left_sidebar.html' %}
+                    {% endblock %}
+				</div>
+
+				<div class="col-sm-9 padding-right">
+                    {% block products %}
+                        {% include 'home/products.html' %}
+                    {% endblock %}
+				</div>
+			</div>
+		</div>
+	</section>
+{% endblock %}
+{% block footer %}
+    {% include '_footer.html' %}
+{% endblock %}
