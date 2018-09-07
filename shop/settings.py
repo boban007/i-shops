@@ -62,7 +62,7 @@ ROOT_URLCONF = 'shop.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR,'templates',USER_TEMPLATE)],
+        'DIRS': [os.path.join(BASE_DIR, 'templates', USER_TEMPLATE)],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

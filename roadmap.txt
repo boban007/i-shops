@@ -1,4 +1,21 @@
 Tracking
 1. Ignore bots
+2. aff_id - get parameter
 
 
+Git
+=========================================================
+https://github.com/boban007/i-shops.git
+git@github.com:boban007/i-shops.git
+
+…or create a new repository on the command line
+echo "# i-shops" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin git@github.com:boban007/i-shops.git
+git push -u origin master
+
+…or push an existing repository from the command line
+git remote add origin git@github.com:boban007/i-shops.git
+git push -u origin master

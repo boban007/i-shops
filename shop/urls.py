@@ -18,6 +18,7 @@ from django.urls import path, include
 from django.conf.urls.i18n import i18n_patterns
 import category.views as category
 import products.views as products
+import home.views as home
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -27,6 +28,7 @@ urlpatterns = [
 urlpatterns += i18n_patterns(
     path('i18n/', include('django.conf.urls.i18n')),
     path('', include('home.urls')),
+    path('search/', home.search, name='search'),
     path('category/<category>', category.index),
     path('product/<product>', products.index),
     prefix_default_language=True,

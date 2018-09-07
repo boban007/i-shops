@@ -19,6 +19,14 @@ def testimonials(request):
     title = 'Testimonials'
     return render(request, 'home/testimonials.html', locals())
 
+def search(request):
+    try:
+        q = request.GET['q']
+        result = Products.objects.filter(named_id__icontains = q)
+        return render(request, 'home/search_results.html', {'q': q, 'result': result})
+    except KeyError:
+        return render(request, 'home/search_results.html')
+
 def contact_us(request):
     if request.method == 'GET':
         form = ContactForm()
