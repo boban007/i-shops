@@ -26,8 +26,10 @@ SECRET_KEY = 'a8^=g6tgez827umqh4!)3c@*#ru(m!5r!=vqevb4euec__(#d7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '5.61.33.250']
+ALLOWED_HOSTS = ['127.0.0.1', ]
 
+# Cart session ID
+CART_SESSION_ID = 'cart'
 
 # Application definition
 
@@ -42,7 +44,8 @@ INSTALLED_APPS = [
     'home',
     'category',
     'generic_name',
-    'products',
+    'product',
+    'cart',
 ]
 
 MIDDLEWARE = [
@@ -68,10 +71,13 @@ TEMPLATES = [
             'context_processors': [
                 'django.template.context_processors.debug',
                 'django.template.context_processors.request',
+                'django.template.context_processors.static',
+                'django.template.context_processors.i18n',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'cart.context_processors.cart',
+                'product.context_processors.bestsellers',
                 'context_processors.context.menu',
-                'context_processors.context.bestsellers',
             ],
             'libraries': {
                 'chunkify': 'templatetags.chunkify',

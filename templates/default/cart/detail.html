@@ -1,0 +1,90 @@
+{% extends '__base.html' %}
+{% block header %}
+    {% include '_header.html' %}
+{% endblock %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3">
+                    {% block left_sidebar %}
+                        {% include '_left_sidebar.html' %}
+                    {% endblock %}
+				</div>
+
+				<div class="col-sm-9 padding-right">
+         			<div class="breadcrumbs">
+                        <ol class="breadcrumb">
+                          <li><a href="{% url 'index' %}">Home</a></li>
+                          <li class="active">Shopping Cart</li>
+                        </ol>
+			        </div>
+                    <h2 class="title text-center">CART DETAILS</h2>
+                    <section id="cart_items">
+                        <div class="table-responsive cart_info">
+                            <table class="table table-condensed">
+                                <thead>
+                                    <tr class="cart_menu">
+                                        <td class="image">Item</td>
+                                        <td class="description"></td>
+                                        <td class="price">Price</td>
+                                        <td class="quantity">Quantity</td>
+                                        <td class="total">Total</td>
+                                        <td></td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for item in cart %}
+                                        {% with pack=item.pack %}
+                                            <tr>
+                                                <td class="cart_product">
+                                                    <a href=""><img src="{{ STATIC_URL }}product/{{ pack.product_id|lower }}.png" alt=""></a>
+                                                </td>
+                                                <td class="cart_description">
+                                                    <h4><a href="">{% trans pack.product_id.named_id context 'products' %}</a></h4>
+                                                    <p>{{ pack.dosage }}{{ pack.measure }} x {{ pack.quantity }} {{ pack.product_id.container_type}}</p>
+                                                </td>
+                                                <td class="cart_price">
+                                                    <p>${{ item.price }}</p>
+                                                </td>
+                                                <td class="cart_quantity">
+                                                    <div class="cart_quantity_button">
+                                                        <a class="cart_quantity_up" href="{% url "cart:adjust" pack.id "+" %}"> + </a>
+                                                        <input class="cart_quantity_input" type="text" name="quantity" value="{{ item.quantity }}" autocomplete="off" size="2" readonly>
+                                                        <a class="cart_quantity_down" href="{% url "cart:adjust" pack.id "-" %}"> - </a>
+                                                    </div>
+                                                </td>
+                                                <td class="cart_total">
+                                                    <p class="cart_total_price">${{ item.total_price }}</p>
+                                                </td>
+                                                <td class="cart_delete">
+                                                    <a class="cart_quantity_delete" href="{% url "cart:remove" pack.id %}"><i class="fa fa-times"></i></a>
+                                                </td>
+                                            </tr>
+                                        {% endwith %}
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                    </section>
+
+                    <div>
+                        <div class="total_area">
+                            <ul>
+                                <li>Total <span>${{ cart.get_total_price }}</span></li>
+                            </ul>
+                            <a class="btn btn-default continue" href="{% url 'all_products' %}">Continue shopping</a>
+
+						    <a class="btn btn-default check_out" href="{% url 'checkout' %}">Checkout</a>
+                        </div>
+                    </div>
+				</div>
+			</div>
+		</div>
+	</section>
+{% endblock %}
+{% block footer %}
+    {% include '_footer.html' %}
+{% endblock %}

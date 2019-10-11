@@ -1,7 +1,7 @@
 from django.contrib import admin
-from .models import Products, ProductCategory, ProductGeneric
+from .models import Product, ProductCategory, ProductGeneric, Pack
 
-class ProductsAdmin(admin.ModelAdmin):
+class ProductAdmin(admin.ModelAdmin):
     list_display = ('named_id', 'container_type', 'per_item', 'is_brand', 'is_sale')
 
 class ProductCategoryAdmin(admin.ModelAdmin):
@@ -10,6 +10,10 @@ class ProductCategoryAdmin(admin.ModelAdmin):
 class ProductGenericAdmin(admin.ModelAdmin):
     list_display = ('product_id', 'generic_id')
 
-admin.site.register(Products, ProductsAdmin)
+class PackAdmin(admin.ModelAdmin):
+    list_display = ('uid', 'product_id', 'is_active', 'dosage', 'measure', 'quantity', 'price')
+
+admin.site.register(Product, ProductAdmin)
 admin.site.register(ProductCategory, ProductCategoryAdmin)
 admin.site.register(ProductGeneric, ProductGenericAdmin)
+admin.site.register(Pack, PackAdmin)

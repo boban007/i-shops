@@ -1784,7 +1784,7 @@ h2.title {
   margin-left: 40px;
 }
 
-.update, .check_out {
+.continue, .check_out {
   background: #FE980F;
   border-radius: 0;
   color: #FFFFFF;
@@ -1792,7 +1792,7 @@ h2.title {
   border: none;
   padding: 5px 15px;
 }
-.update{
+.continue{
     margin-left: 40px;
 }
 
@@ -2532,4 +2532,6 @@ h2.title {
   color: #FE980F;
 }
 
-
+#id_quantity{
+    width: 60px;
+}

@@ -1,7 +1,7 @@
 Tracking
 1. Ignore bots
 2. aff_id - get parameter
-
+3. pack
 
 Git
 =========================================================

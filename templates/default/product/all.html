@@ -1,0 +1,78 @@
+{% extends '__base.html' %}
+{% block header %}
+    {% include '_header.html' %}
+{% endblock %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3">
+                    {% block left_sidebar %}
+                        {% include '_left_sidebar.html' %}
+                    {% endblock %}
+				</div>
+
+				<div class="col-sm-9 padding-right">
+         			<div class="breadcrumbs">
+                        <ol class="breadcrumb">
+                          <li><a href="{% url 'index' %}">Home</a></li>
+                          <li class="active">All Products</li>
+                        </ol>
+			        </div>
+                    <h2 class="title text-center">PRODUCTS</h2>
+                        {% for product in products %}
+                        <div class="col-sm-4">
+                            <div class="product-image-wrapper">
+                                <div class="single-products">
+                                        <div class="productinfo text-center">
+                                            <img src="{{ STATIC_URL }}product/{{ product.named_id|lower }}.png" alt="" />
+                                            <h2>${{ product.per_item|floatformat:2 }}</h2>
+                                            <p>{% trans product.named_id context 'products' %}</p>
+                                            <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>{% trans 'Add to cart' %}</a>
+                                        </div>
+                                        <div class="product-overlay">
+                                            <div class="overlay-content">
+                                                <h2>${{ product.per_item|floatformat:2 }}</h2>
+                                                <p>{% trans product.named_id context 'products' %}</p>
+                                                <a href="/{{LANGUAGE_CODE}}/product/{{ product.named_id }}" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>{% trans 'Add to cart' %}</a>
+                                            </div>
+                                        </div>
+                                </div>
+                                {% if product.is_sale %}
+                                    <img src="{% static 'default/images/home/sale.png' %}" class="new" alt="" />
+                                {% endif %}
+                                {% if product.is_new %}
+                                    <img src="{% static 'default/images/home/new.png' %}" class="new" alt="" />
+                                {% endif %}
+                            </div>
+                        </div>
+                        {% endfor %}
+
+                        <div class="pagination">
+                            <span class="step-links">
+                                {% if products.has_previous %}
+                                    <a href="?page=1">&laquo; first</a>
+                                    <a href="?page={{ products.previous_page_number }}">previous</a>
+                                {% endif %}
+
+                                <span class="current">
+                                    Page {{ products.number }} of {{ products.paginator.num_pages }}.
+                                </span>
+
+                                {% if products.has_next %}
+                                    <a href="?page={{ products.next_page_number }}">next</a>
+                                    <a href="?page={{ products.paginator.num_pages }}">last &raquo;</a>
+                                {% endif %}
+                            </span>
+                        </div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+{% endblock %}
+{% block footer %}
+    {% include '_footer.html' %}
+{% endblock %}

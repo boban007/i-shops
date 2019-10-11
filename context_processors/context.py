@@ -1,7 +1,8 @@
 from django.template.context_processors import request
 
 from category.models import Category
-from products.models import Products, ProductCategory
+from product.models import Product, ProductCategory
+
 
 def menu(request):
     categories = Category.objects.filter(is_active=True).order_by('position')
@@ -17,7 +18,7 @@ def menu(request):
     return {'menu': menu}
 
 
-def bestsellers(request):
-    bestsellers = Products.objects.filter(is_active=True, is_brand=True)
-
-    return {'bestsellers': bestsellers}
+# def bestsellers(request):
+#     bestsellers = Product.objects.filter(is_active=True, is_brand=True)
+#
+#     return {'bestsellers': bestsellers}

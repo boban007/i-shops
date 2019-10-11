@@ -1,0 +1,61 @@
+{% load static %}
+{% load i18n %}
+{% block product %}
+    <div class="product-details"><!--product-details-->
+        <div class="col-sm-5">
+            <div class="view-product">
+                <img src="{{ STATIC_URL }}product/{{ product.named_id|lower }}.png" alt="" />
+                <h3>ZOOM</h3>
+            </div>
+        </div>
+        <div class="col-sm-7">
+            <div class="product-information"><!--/product-information-->
+                <h2>{% trans product.named_id context 'products' %}</h2>
+                {% if generic %}
+                    <p><b>Brand:</b> {% for item in generic %}{% trans item context 'generic' %}{% endfor %}</p>
+                {% endif %}
+                <span>
+                {% for p in pack %}
+                    <p>
+                        <b>{% trans product.named_id context 'products' %}</b> {{ p.dosage }}{{ p.measure }} x {{ p.quantity }} {{ product.container_type}} = ${{ p.price }}
+                        <form action="{% url "cart:add" p.id %}" method="post">
+                            {% csrf_token %}
+                            {{ cart_pack_form }}
+                	        <button type="submit" class="btn btn-fefault cart">
+							    <i class="fa fa-shopping-cart"></i>
+								{% trans 'Add to cart' %}
+                            </button>
+                        </form>
+                    </p>
+                {% endfor %}
+                </span>
+                <p><b>Availability:</b> In Stock</p>
+                <p><b>Condition:</b> New</p>
+            </div><!--/product-information-->
+        </div>
+
+        <div class="category-tab shop-details-tab"><!--category-tab-->
+            <div class="col-sm-12">
+                <ul class="nav nav-tabs">
+                    <li class="active"><a href="#details" data-toggle="tab">Details</a></li>
+                    <li><a href="#details2" data-toggle="tab">Details 2</a></li>
+                    <li><a href="#details3" data-toggle="tab">Details 3</a></li>
+                </ul>
+            </div>
+            <div class="tab-content">
+                <div class="tab-pane fade active in" id="details" >
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquid cum dicta doloribus eveniet neque nulla odit, quasi, qui saepe, similique sint voluptatum. Autem consequatur dolor, eos est eveniet ex harum id in iure laboriosam magnam modi neque officia pariatur possimus quae quam quis soluta tempora tenetur ullam vero vitae.
+                </div>
+
+                <div class="tab-pane fade" id="details2" >
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, assumenda aut debitis et impedit magni maiores nam quis unde velit. Assumenda at cumque enim, esse ipsum iusto laboriosam nam natus nostrum obcaecati, praesentium sunt unde. Eaque porro quibusdam recusandae saepe suscipit. Adipisci debitis dicta id magni mollitia, nam nihil pariatur quam qui saepe? Ab adipisci amet aperiam consequuntur cumque dolore, doloremque dolores eligendi eos error esse exercitationem expedita labore libero minima modi natus nemo odit omnis quaerat quam quas quibusdam quidem repellendus repudiandae similique sint sit tempore totam veritatis! Dolor quae qui sapiente vitae? Dolorem est illum molestiae nulla quaerat.
+                </div>
+
+                <div class="tab-pane fade" id="details3" >
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium distinctio ducimus ea exercitationem facere inventore, neque quis quo ratione. Accusamus adipisci at, cum cumque dicta eligendi eos eveniet explicabo natus, porro provident quos, ratione sequi soluta totam. Aliquid debitis ex fugiat laboriosam maxime necessitatibus nihil numquam quae quod vel! Aliquam, aliquid amet aspernatur atque autem consectetur cum debitis error est labore nulla numquam perferendis quae quam recusandae sequi ut? Aperiam aspernatur dolores iusto minus non possimus quas, quasi voluptatum. Facere labore, voluptas? Aliquid amet beatae blanditiis dolores eius expedita fuga inventore nam, nisi nobis non perferendis praesentium quasi quia quibusdam quis quos ratione repellat sequi, sit temporibus veritatis, voluptates voluptatibus. A accusantium ad adipisci culpa cum, doloremque eius est eum ex in maxime nemo neque odio qui, ratione repellat voluptatem. Ad adipisci autem commodi consectetur debitis delectus deleniti deserunt distinctio, dolorum ducimus eius est, fuga, harum nesciunt quae quis quisquam reiciendis sint sit temporibus. A alias aliquam amet asperiores at beatae eaque earum exercitationem, fugiat in ipsam iste itaque iure minima nesciunt optio, perspiciatis quaerat qui ratione repellat repellendus, saepe tempora ut voluptatem voluptatibus. Blanditiis deserunt distinctio eligendi explicabo facilis in incidunt inventore iste laborum pariatur porro qui tempora, veniam!
+                </div>
+            </div>
+        </div><!--/category-tab-->
+
+    </div><!--/product-details-->
+{% endblock %}

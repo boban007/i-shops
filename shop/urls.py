@@ -15,10 +15,15 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from django.conf.urls import url
 from django.conf.urls.i18n import i18n_patterns
+from django.views.generic.base import RedirectView
 import category.views as category
-import products.views as products
+import product.views as product
 import home.views as home
+import cart.views as cart
+
+admin.site.site_header = 'My admin'
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -30,6 +35,10 @@ urlpatterns += i18n_patterns(
     path('', include('home.urls')),
     path('search/', home.search, name='search'),
     path('category/<category>', category.index),
-    path('product/<product>', products.index),
+    path('products/all/', product.all, name='all_products'),
+    path('product/<product>', product.index),
+    url(r'^cart/', include('cart.urls', namespace='cart')),
+    #path('checkout/', cart.checkout, name='checkout'),
+    url('checkout/', RedirectView.as_view(url='http://google.com'), name='checkout'),
     prefix_default_language=True,
 )

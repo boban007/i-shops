@@ -15,7 +15,7 @@
 									<div class="product-image-wrapper">
 										<div class="single-products">
 											<div class="productinfo text-center">
-												<img src="{{ STATIC_PREFIX }}products/{{ product.named_id|lower }}.png" alt="" />
+												<img src="{{ STATIC_PREFIX }}product/{{ product.named_id|lower }}.png" alt="" />
 												<h2>${{ product.per_item|floatformat:2 }}</h2>
 												<p>{% trans product.named_id context 'products' %}</p>
 												<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>

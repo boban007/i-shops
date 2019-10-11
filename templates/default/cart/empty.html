@@ -1,0 +1,33 @@
+{% extends '__base.html' %}
+{% block header %}
+    {% include '_header.html' %}
+{% endblock %}
+{% load static %}
+{% load i18n %}
+{% block content %}
+	<section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    {% block left_sidebar %}
+                        {% include '_left_sidebar.html' %}
+                    {% endblock %}
+                </div>
+                <div class="col-sm-9 padding-right">
+                    <div class="breadcrumbs">
+                        <ol class="breadcrumb">
+                          <li><a href="{% url 'index' %}">Home</a></li>
+                          <li class="active">Shopping Cart</li>
+                        </ol>
+                    </div>
+                    <h2 class="title text-center">CART DETAILS</h2>
+                    <h3>Basket is empty</h3>
+                    <a class="btn btn-default continue" href="{% url 'all_products' %}">Continue shopping</a>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}
+{% block footer %}
+    {% include '_footer.html' %}
+{% endblock %}

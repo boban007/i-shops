@@ -16,6 +16,14 @@
 				</div>
 
 				<div class="col-sm-9 padding-right">
+
+         			<div class="breadcrumbs">
+                        <ol class="breadcrumb">
+                          <li><a href="{% url 'index' %}">Home</a></li>
+                          <li class="active">Search</li>
+                        </ol>
+			        </div>
+
 					<div class="blog-post-area search_result">
 						<h2 class="title text-center">{% trans 'Search' %}
                         <h3>Search result: "{{q}}"</h3>
@@ -25,10 +33,10 @@
                                 {% for r in result %}
                                     <div class="media commnets">
                                         <a class="pull-left" href="#">
-                                            <img class="media-object" src="{% static 'products/' %}{{ r.named_id|lower }}.png" alt="">
+                                            <img class="media-object" src="{{ STATIC_URL }}product/{{ r.named_id|lower }}.png" alt="">
                                         </a>
                                         <div class="media-body">
-                                            <h4 class="media-heading"><a href="#">{% trans r.named_id context 'products' %}</a></h4>
+                                            <h4 class="media-heading"><a href="/{{ LANGUAGE_CODE }}/product/{{r.named_id}}">{% trans r.named_id context 'products' %}</a></h4>
                                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                                         </div>
                                     </div><!--Comments-->

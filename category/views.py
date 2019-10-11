@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from category.models import Category
-from products.models import Products, ProductCategory
+from product.models import Product, ProductCategory
 from django.http import Http404
 
 # Create your views here.

@@ -2,7 +2,7 @@ from django.db import models
 
 # Create your models here.
 class Category(models.Model):
-    named_id = models.CharField(max_length=30, unique=True)
+    named_id = models.SlugField(primary_key=True)
     is_active = models.BooleanField(default=True)
     position = models.PositiveSmallIntegerField(default=1)
 
@@ -12,4 +12,4 @@ class Category(models.Model):
     class Meta:
         ordering = ['position']
         verbose_name = 'Category'
-        verbose_name_plural = 'Categorys'
+        verbose_name_plural = 'Categories'
